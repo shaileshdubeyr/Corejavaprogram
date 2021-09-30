@@ -8,7 +8,7 @@ public class QuotientAndRemainder {
 		int harmonicLimitInput = userInputObj.nextInt();
 			return harmonicLimitInput;
 	}
-	public void division(int dividend, int divisor) {
+	public void division(int dividend, int divisor ) {
 		int quotient;
 		int remainder;
 		System.out.println("the dividend is "+dividend);
