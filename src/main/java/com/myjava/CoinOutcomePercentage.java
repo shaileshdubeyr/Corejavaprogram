@@ -11,7 +11,7 @@ public class CoinOutcomePercentage {
 		int headCounter = 0;
 		int flipCoinLimit = inputCoinLimit();
 		for (int i = ONE; i <= flipCoinLimit; i++) {
-			int coinFlip = (int) (Math.random() * 2 );
+			int coinFlip = (int) (Math.random() * 2);
 			if (coinFlip > HEAD) {
 				headCounter++;
 			}
